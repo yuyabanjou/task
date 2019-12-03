@@ -1,0 +1,58 @@
+ /* ブラウザがそれぞれ持っているCSSをリセットするため */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.list {
+	margin-bottom: 50px;
+}
+
+.list-content1 {
+	height: 60px;
+	background-color: rgb( 238, 238, 238);
+	padding: 20px;
+}
+
+.list-content2 {
+	height: 60px;
+	background-color: rgb( 255, 255, 255);
+	padding: 20px;
+}
+
+main {
+	width: 960px;
+	margin: 50px auto;
+}
+
+.box:first-child,
+.box:last-child,
+.box:nth-child(5) {
+	background-color: rgb( 255, 132, 22);
+}
+
+.box:nth-child(3n) {
+	margin-right: 0;
+}
+
+.box:nth-last-child(-n+3) {
+	margin-bottom: 0;
+}
+
+.box {
+	width: 30%;
+	height: 200px;
+	margin-bottom: 40px;
+	background-color: rgb( 255,	219, 45);
+	float: left;
+	margin-right: 5%;
+}
+
+
