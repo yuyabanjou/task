@@ -29,6 +29,8 @@ header .headline {
 	text-align: center;
 	padding: 15px 0;
 	margin: 0 auto;
+	border-top: solid 1px grey;
+	border-bottom: solid 1px grey;
 }
 
 .nav-list-item {
@@ -39,9 +41,10 @@ header .headline {
 }
 
 .main {
-	width: 1000px;
-	height: 900px;
+	width: 900px;
+	height: 700px;
 	margin: 0 auto;
+	border-top: solid 50px #ffffff;
 }
 
 .boxes1 {
@@ -85,6 +88,7 @@ header .headline {
 .boxes2 {
 	width: 800px
 	margin: 0 auto;
+	clear: both;
 }
 
 .box5 {
@@ -92,6 +96,68 @@ header .headline {
 	height: 200px;
 	margin: 0 auto;
 	background-color: #f3ffd8;
+	float: left;
+}
+
+.box6 {
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+	background-color: #edffbe;
+	float: left;
+}
+
+.box7 {
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+	background-color: #e9ffa5;
+	float: left;
+}
+
+.box8 {
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+	background-color: #e4ff8d;
+	float: left;
+}
+
+.boxes3 {
+	width: 800px
+	margin: 0 auto;
+	clear: both;
+}
+
+.box9 {
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+	background-color: #d9e5ff;
+	float: left;
+}
+
+.box10 {
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+	background-color: #bad3ff;
+	float: left;
+}
+
+.box11 {
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+	background-color: #a4c6ff;
+	float: left;
+}
+
+.box12 {
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+	background-color: #8eb8ff;
 	float: left;
 }
 
