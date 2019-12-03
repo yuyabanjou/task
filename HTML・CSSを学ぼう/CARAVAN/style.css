@@ -43,6 +43,7 @@ header .headline {
 .main-visual {
 	width: 100%;
 	height: 300px;
+	background-image: url(img/mv.jpg);
 }
 
 .main-visual-content {
