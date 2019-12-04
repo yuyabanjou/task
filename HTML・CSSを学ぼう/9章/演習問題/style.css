@@ -1,0 +1,49 @@
+ /* ブラウザがそれぞれ持っているCSSをリセットするため */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+main {
+	margin: 50px 0;
+}
+
+.box {
+}
+
+.box-item {
+	width: 300px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: gray;
+	display: inline-block;
+	margin: 0 15px 0 15px;
+}
+
+.step {
+	background-color: orange;
+	position: absolute;
+	padding: 4px 2px;
+}
+
+.step-text {
+	color: white;
+	font-weight: bold;
+}
+
+.box-image {
+	width: 280px;
+	margin: 10px 10px 10px 10px;
+}
+
+.box-text {
+	width: 280px;
+	margin: 10px 10px 10px 10px;
+}

@@ -1,0 +1,22 @@
+ /* ブラウザがそれぞれ持っているCSSをリセットするため */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.position {
+	position: absolute;
+	top: 100px;
+	right: 40px;
+}
+
+i {
+	font-size: 32px;
+}
